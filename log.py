@@ -86,7 +86,7 @@ class Logger:
 
     @__readFile
     def __preprocess(string, log_string):
-        i = -1*string[::-1].find('\n"""', 600)-5
+        i = -1*string[::-1].find('\n"""', 800)-5
         if log_string=="None":
             log_string = "\n"
         else:
